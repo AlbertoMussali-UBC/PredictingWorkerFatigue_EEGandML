@@ -1,3 +1,10 @@
+# Disclaimer
+Everything within this subfolder (eegFG), including the rest of this readme file, are derived or copied from: https://github.com/jordan-bird/eeg-feature-generation. The authors do not claim ownership over any content whatsoever within this subfolder. Some files were modified to better suit the needs of this project and publication.
+
+
+
+
+
 ## What is this?
 This script will take EEG brainwaves and create a static dataset through a sliding window approach. Overlapping windows consider wave data and many mathematical attributes are generated in order to describe the wave. This means for Machine Learning you're not classifying point-data and thus temporal techniques such as an LSTM are no longer necessary 
 
